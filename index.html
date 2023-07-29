@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    console.log("Hello, World!")
+    
+    function favoriteAnimal(animal) {
+        return animal + " is my fav"
+    }
+
+    console.log(favoriteAnimal('Goat'))
+
+    function add7(number){
+        return number +7
+    }
+
+    console.log(add7(8))
+
+
+    function multiply(number1,number2){
+        return number1 * number2
+    }
+    console.log(multiply(6,7))
+
+
+    function fizzBuzz(limit) {
+  for (let num = 1; num <= limit; num++) {
+    if (num % 3 === 0 && num % 5 === 0) {
+      console.log("FizzBuzz");
+    } else if (num % 3 === 0) {
+      console.log("Fizz");
+    } else if (num % 5 === 0) {
+      console.log("Buzz");
+    } else {
+      console.log(num);
+    }
+  }
+}
+
+fizzBuzz(20);
+
+  </script>
+</body>
+</html>
